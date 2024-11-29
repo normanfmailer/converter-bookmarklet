@@ -1,6 +1,6 @@
 if(window.location.href.includes('lpsg.com/threads')) {
 var deleteMe = Array.from(document.getElementsByClassName("video-easter-egg-overlay"));
-// deleteMe.concat(document.getElementsByClassName("video-easter-egg-blocker"));
+deleteMe.concat(document.getElementsByClassName("video-easter-egg-blocker"));
 for(let i = 0; i < deleteMe.length; i++) {
     deleteMe[i].remove();
 }
